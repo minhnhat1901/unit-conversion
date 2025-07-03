@@ -1,4 +1,46 @@
 body {
     margin: 0;
-    background: 
+    background: #1C1C1C;
+}
+
+.container {
+    display: block;
+    margin: 50px 400px;
+    background: #6943FF;
+    width: auto;
+    height: 80vh; /* <--- check this out later */
+}
+
+#context-layer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 10px;
+}
+
+#conversion-title {
+    color: #FFFFFF;
+    font-family: Inter, sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 25px;
+}
+
+#conversion-input {
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 58px;
+    background: none;
+    border: 2px solid lightgrey;
+    width: 117px;
+    height: 83px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#conversion-btn {
+    
 }
