@@ -1,14 +1,19 @@
 body {
     margin: 0;
     background: #1C1C1C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
-    display: block;
-    margin: 50px 400px;
     background: #6943FF;
-    width: auto;
-    height: 80vh; /* <--- check this out later */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    margin-top: 50px;
 }
 
 #context-layer {
@@ -31,10 +36,13 @@ body {
 #conversion-input {
     font-family: Inter;
     font-weight: 800;
+    font-style: bolder;
+    letter-spacing: 2px;
     font-size: 58px;
     background: none;
     border: 2px solid lightgrey;
-    width: 117px;
+    border-radius: 5px;
+    width: 150px;
     height: 83px;
     margin-bottom: 25px;
     text-align: center;
@@ -42,5 +50,40 @@ body {
 }
 
 #conversion-btn {
-    
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: 0;
+    background: #FFFFFF;
+}
+
+.conversion-layer {
+    background: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+    width: 600px;
+    margin-bottom: 50px;
+}
+
+.conversion-detail {
+    background: #FFFFFF;
+    line-height: 20px;
+    text-align: center;
+    width: 550px;
+    height: fit-content;
+    margin: 20px 0;
+}
+
+.conversion-type {
+    color: #5A537B;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Bold;
+    font-size: 20px;
 }
