@@ -7,13 +7,21 @@ body {
     align-items: center;
 }
 
+.center-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
 .container {
     background: #6943FF;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 600px;
-    margin-top: 50px;
+    margin: 0;
 }
 
 #context-layer {
@@ -66,9 +74,9 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: fit-content;
+    min-height: 450px;
+    height: auto;
     width: 600px;
-    margin-bottom: 50px;
 }
 
 .conversion-detail {
@@ -76,7 +84,7 @@ body {
     line-height: 20px;
     text-align: center;
     width: 550px;
-    height: fit-content;
+    height: 100px;
     margin: 20px 0;
 }
 
@@ -84,6 +92,14 @@ body {
     color: #5A537B;
     font-family: Inter;
     font-weight: 600;
-    font-style: Bold;
+    font-style: bold;
     font-size: 20px;
+}
+
+p {
+    color: #353535;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
 }
